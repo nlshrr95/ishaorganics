@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isha Organics - Ancient Grains of India</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Lora', serif; }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-green-900 font-serif">Isha Organics</a>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-2xl p-2">☰</button>
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="index.html" class="text-green-800 font-semibold border-b-2 border-green-800">Home</a>
+                <a href="our-story.html" class="text-stone-600 hover:text-green-800">Our Story</a>
+                <a href="our-grains.html" class="text-stone-600 hover:text-green-800">Our Grains</a>
+                <a href="our-farmers.html" class="text-stone-600 hover:text-green-800">Our Farmers</a>
+                <a href="health-heritage.html" class="text-stone-600 hover:text-green-800">Health & Heritage</a>
+                <a href="contact.html" class="text-stone-600 hover:text-green-800">Contact</a>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white/95 backdrop-blur-lg">
+            <a href="index.html" class="block py-2 px-6 text-green-800 font-semibold">Home</a>
+            <a href="our-story.html" class="block py-2 px-6 text-stone-600 hover:bg-stone-100">Our Story</a>
+            <a href="our-grains.html" class="block py-2 px-6 text-stone-600 hover:bg-stone-100">Our Grains</a>
+            <a href="our-farmers.html" class="block py-2 px-6 text-stone-600 hover:bg-stone-100">Our Farmers</a>
+            <a href="health-heritage.html" class="block py-2 px-6 text-stone-600 hover:bg-stone-100">Health & Heritage</a>
+            <a href="contact.html" class="block py-2 px-6 text-stone-600 hover:bg-stone-100">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="h-[90vh] bg-cover bg-center flex items-center justify-center text-white" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1599539314421-2e20342083c9?q=80&w=2070&auto=format&fit=crop');">
+            <div class="text-center px-4">
+                <h1 class="text-5xl md:text-7xl font-bold font-serif leading-tight">Rediscover the Soul of Rice.</h1>
+                <p class="mt-4 text-lg md:text-xl max-w-2xl mx-auto">Nourishing, flavorful, and forgotten grains, grown with tradition and delivered to your modern kitchen.</p>
+                <a href="#featured-grains" class="mt-8 inline-block bg-white text-green-900 px-8 py-3 rounded-full font-semibold text-lg hover:bg-stone-200 transition-colors">Explore Our Grains</a>
+            </div>
+        </section>
+
+        <!-- Featured Grains Section -->
+        <section id="featured-grains" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-serif text-center mb-12">Our Ancient Harvest</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                    <!-- Product Card 1 -->
+                    <div class="text-center group">
+                        <div class="overflow-hidden rounded-lg shadow-lg">
+                           <img src="https://images.unsplash.com/photo-1586201375822-522673a80f42?q=80&w=1964&auto=format&fit=crop" alt="Karuppu Kavuni Black Rice" class="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500">
+                        </div>
+                        <h3 class="text-2xl font-serif mt-6">Karuppu Kavuni (Black Rice)</h3>
+                        <p class="mt-2 text-stone-600">Rich in antioxidants with a nutty flavor. Once reserved for royalty.</p>
+                    </div>
+                    <!-- Product Card 2 -->
+                    <div class="text-center group">
+                        <div class="overflow-hidden rounded-lg shadow-lg">
+                           <img src="https://images.unsplash.com/photo-1603613696856-339c3683f218?q=80&w=1964&auto=format&fit=crop" alt="Mappillai Samba Red Rice" class="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500">
+                        </div>
+                        <h3 class="text-2xl font-serif mt-6">Mappillai Samba (Red Rice)</h3>
+                        <p class="mt-2 text-stone-600">A fabled red rice known to bestow strength and stamina. Earthy and filling.</p>
+                    </div>
+                    <!-- Product Card 3 -->
+                    <div class="text-center group">
+                        <div class="overflow-hidden rounded-lg shadow-lg">
+                           <img src="https://images.unsplash.com/photo-1512058564366-185109023977?q=80&w=1974&auto=format&fit=crop" alt="Kichili Samba Aromatic Rice" class="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500">
+                        </div>
+                        <h3 class="text-2xl font-serif mt-6">Kichili Samba (Aromatic Rice)</h3>
+                        <p class="mt-2 text-stone-600">A healthy, fragrant alternative to polished white rice. Perfect for biryanis.</p>
+                    </div>
+                </div>
+                 <div class="text-center mt-12">
+                    <a href="our-grains.html" class="bg-green-800 text-white px-8 py-3 rounded-full font-semibold text-lg hover:bg-green-900 transition-colors">See All Grains</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Promise Section -->
+        <section class="py-20 bg-stone-50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-serif text-center mb-12">Why Isha Organics?</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 text-center">
+                    <div>
+                        <div class="text-5xl text-green-800 mb-4">🌱</div>
+                        <h4 class="text-xl font-semibold mb-2">Ethically Sourced</h4>
+                        <p class="text-stone-600">We partner directly with small-scale farmers, ensuring fair prices that help their communities thrive.</p>
+                    </div>
+                    <div>
+                        <div class="text-5xl text-green-800 mb-4">🍃</div>
+                        <h4 class="text-xl font-semibold mb-2">Beyond Organic</h4>
+                        <p class="text-stone-600">Our grains are grown using traditional, sustainable methods, free from chemical pesticides.</p>
+                    </div>
+                    <div>
+                        <div class="text-5xl text-green-800 mb-4">❤️</div>
+                        <h4 class="text-xl font-semibold mb-2">Nutrient-Dense</h4>
+                        <p class="text-stone-600">Unpolished and whole, our rice is packed with fiber, vitamins, and minerals lost in commercial processing.</p>
+                    </div>
+                    <div>
+                        <div class="text-5xl text-green-800 mb-4">🌾</div>
+                        <h4 class="text-xl font-semibold mb-2">Preserving Biodiversity</h4>
+                        <p class="text-stone-600">By cultivating these heirloom seeds, you help us protect our agricultural heritage for the future.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-serif text-center mb-12">Health & Heritage</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                     <div class="bg-stone-50 rounded-lg shadow-lg overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1543339308-43e59d6b70a6?q=80&w=2070&auto=format&fit=crop" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h4 class="font-semibold text-lg">The Story of Mappillai Samba: Why Was It Served to Grooms?</h4>
+                            <a href="health-heritage.html" class="text-green-800 font-semibold mt-4 inline-block">Read More →</a>
+                        </div>
+                    </div>
+                     <div class="bg-stone-50 rounded-lg shadow-lg overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1599028570498-23e4a3a69a25?q=80&w=2070&auto=format&fit=crop" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h4 class="font-semibold text-lg">Understanding the Glycemic Index ($GI$): A Healthier Choice.</h4>
+                            <a href="health-heritage.html" class="text-green-800 font-semibold mt-4 inline-block">Read More →</a>
+                        </div>
+                    </div>
+                     <div class="bg-stone-50 rounded-lg shadow-lg overflow-hidden">
+                        <img src="https://plus.unsplash.com/premium_photo-1664478227632-68a8345f8f55?q=80&w=2070&auto=format&fit=crop" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h4 class="font-semibold text-lg">Recipe: How to Cook Perfect, Fluffy Karuppu Kavuni Rice.</h4>
+                            <a href="health-heritage.html" class="text-green-800 font-semibold mt-4 inline-block">Read More →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-green-900 text-white">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-xl font-serif mb-4">Isha Organics</h4>
+                    <p class="text-stone-300">From Our Soil to Your Soul.</p>
+                    <p class="text-stone-400 text-sm mt-4">Davanagere, Karnataka, India</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <ul>
+                        <li class="mb-2"><a href="our-story.html" class="hover:text-stone-200">Our Story</a></li>
+                        <li class="mb-2"><a href="our-grains.html" class="hover:text-stone-200">Shop</a></li>
+                        <li class="mb-2"><a href="health-heritage.html" class="hover:text-stone-200">Blog</a></li>
+                        <li class="mb-2"><a href="contact.html" class="hover:text-stone-200">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Follow Us</h4>
+                    <ul>
+                        <li class="mb-2"><a href="#" class="hover:text-stone-200">Instagram</a></li>
+                        <li class="mb-2"><a href="#" class="hover:text-stone-200">Facebook</a></li>
+                        <li class="mb-2"><a href="#" class="hover:text-stone-200">YouTube</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Newsletter</h4>
+                    <p class="text-stone-300 mb-4">Get recipes, stories, and offers delivered to your inbox.</p>
+                    <form>
+                        <input type="email" placeholder="Your email" class="w-full p-2 rounded bg-stone-100 text-stone-800 placeholder:text-stone-500">
+                        <button type="submit" class="w-full bg-stone-200 text-green-900 mt-2 py-2 rounded font-semibold hover:bg-white transition-colors">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="border-t border-green-800 mt-8 pt-6 text-center text-stone-400 text-sm">
+                <p>&copy; 2025 Isha Organics. All Rights Reserved.</p>
+                <p>Generated at: Thursday, October 2, 2025, 3:06 PM IST</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Simple mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
+
